@@ -1,0 +1,17 @@
+{
+    "name": "competitor-ad-scraper",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Scrapes Facebook Ads",
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.4.2"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    },
+    "author": "User",
+    "license": "ISC"
+}
