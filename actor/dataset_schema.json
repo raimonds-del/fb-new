@@ -1,0 +1,38 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "adBody",
+                    "pageName",
+                    "startDate",
+                    "linkDescription"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "adBody": {
+                        "label": "Ad Text",
+                        "format": "text"
+                    },
+                    "pageName": {
+                        "label": "Advertiser",
+                        "format": "text"
+                    },
+                    "startDate": {
+                        "label": "Started",
+                        "format": "date"
+                    },
+                    "linkDescription": {
+                        "label": "Headline",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
